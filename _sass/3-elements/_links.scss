@@ -3,12 +3,13 @@
 =============== */
 
 a {
-    text-decoration: none;
-    color: black;
-    transition: $global-transition;
+  text-decoration: none;
+  color: black;
+  transition: $global-transition;
 
-    &:hover {
-        color: $link-color-hover;
+  &:hover {
+    .c-post-title {
+      color: $link-color-hover;
     }
-
+  }
 }
